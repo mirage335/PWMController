@@ -1,0 +1,32 @@
+Copyright (C) 2014 mirage335
+See the end of the file for license conditions.
+See license.txt for PWMController license conditions.
+
+__Usage__
+Generic switching power supply block, with emphasis on low EMI. Capable of self-bootstrapping, may be used to generate control voltages for MOSFETS, IGBTs, and similar devices. In some situations, particularly with a linear regulator, may be directly suitable as a generic power supply.
+
+Top-level schematic and PCB layout form a dedicated PCB module, which may be surface-mount soldered directly to the pads defined in the subcircuit. Subcircuit may be integrated into other systems, where individual components or entire module may be soldered in place.
+
+__Design__
+Spread-spectrum low-frequency (~5kHz default) switching power supply regulator. Modulation has been carefully characterized to minimize narrowband interference. Duty cycle is limited to permit flyback converter use.
+
+USA companies provide all parts in these schematics.
+
+__Safety__
+
+
+__Copyright__
+This file is part of PWMController.
+
+PWMController is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+PWMController is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with PWMController.  If not, see <http://www.gnu.org/licenses/>.

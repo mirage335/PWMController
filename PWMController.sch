@@ -1,0 +1,8 @@
+v 20130925 2
+C 53500 41500 1 0 0 PWMController-sys.sym
+{
+T 56300 45200 5 10 1 1 0 0 1
+refdes=M1
+T 56000 44900 5 10 1 1 0 0 1
+device=PWM_SS_Reg
+}
